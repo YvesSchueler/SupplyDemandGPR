@@ -38,7 +38,7 @@ Because the classification uses no macroeconomic data, the indices can be constr
 
 ## Euro area indices
 
-The euro area indices apply the same mechanism classification to the article corpus underlying the euro area GPR index of Bondarenko, Kang, Lewis, Rottner, and Schüler (2026, Bundesbank Discussion Paper 14/2026), with the questionnaire referring to the euro area economy. They are part of ongoing work; construction details and a citation will be added when the paper is available. Until then, please contact the author before using them in published work.
+The euro area indices apply the same mechanism classification to the article corpus underlying the euro area GPR index of Bondarenko, Kang, Lewis, Rottner, and Schüler (2026, Bundesbank Discussion Paper 14/2026), with the questionnaire referring to the euro area economy. They are part of ongoing work; construction details will be added.
 
 
 ## Updates
