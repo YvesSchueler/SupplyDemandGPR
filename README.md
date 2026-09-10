@@ -38,14 +38,12 @@ The paper proposes a coherence criterion for validating the structural interpret
 
 BF = [C/(1−C)] / [C₀/(1−C₀)].
 
-`code/coherence.m` and `code/coherence.py` implement the criterion for a given set of posterior and prior impulse-response draws and a signature specification. See the header of each file for usage.
-
 ## Updates
 
 The indices are updated periodically. The vintage is stated in the `Readme` sheet of the Excel file and in the commit history.
 
 ## Contact
 
-Yves Schüler, Deutsche Bundesbank — yves.schueler@bundesbank.de
+Yves Schüler, Deutsche Bundesbank — yves.schueler (at) bundesbank.de
 
 The views expressed are those of the authors and do not necessarily coincide with the views of the Deutsche Bundesbank, the European Central Bank, the Bank for International Settlements, or the Eurosystem.
