@@ -32,12 +32,6 @@ The indices are overlapping subindices of the Caldara–Iacoviello index: an art
 
 Because the classification uses no macroeconomic data, the indices can be constructed in real time as events unfold.
 
-## Coherence criterion
-
-The paper proposes a coherence criterion for validating the structural interpretation of an externally identified shock: the posterior share of impulse-response draws satisfying the shock's theoretical signature, benchmarked against the prior share, summarized as a Bayes-factor-style diagnostic
-
-BF = [C/(1−C)] / [C₀/(1−C₀)].
-
 ## Updates
 
 The indices are updated periodically. The vintage is stated in the `Readme` sheet of the Excel file and in the commit history.
