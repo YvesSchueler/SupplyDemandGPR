@@ -6,6 +6,8 @@ Monthly supply-type and demand-type geopolitical risk indices for the United Sta
 
 Please cite the paper when using the data.
 
+The file also contains preliminary euro area counterparts (see below).
+
 ## Data
 
 **`SupplyDemandGPR.xlsx`** — sheet `Data` contains
@@ -15,6 +17,8 @@ Please cite the paper when using the data.
 | `month` | first day of the month |
 | `supply_gpr` | supply-type GPR index, mean 100 over 1985:1–2026:3 |
 | `demand_gpr` | demand-type GPR index, mean 100 over 1985:1–2026:3 |
+| `ea_supply_gpr` | supply-type GPR index, euro area, 1998:1-2026:3 |
+| `ea_demand_gpr` | demand-type GPR index, euro area, 1998:1-2026:3 |
 
 Permalink to the latest vintage:
 `https://github.com/YvesSchueler/SupplyDemandGPR/raw/main/SupplyDemandGPR.xlsx`
@@ -31,6 +35,11 @@ Articles are retrieved from Factiva Analytics with the Caldara–Iacoviello sear
 The indices are overlapping subindices of the Caldara–Iacoviello index: an article describing both mechanisms enters both, and the two do not sum to the overall index. Events such as 9/11 load mainly on the demand index; the Gulf War, Russia's invasion of Ukraine, and the 2026 Middle East conflict load mainly on the supply index. The two indices correlate at about 0.3.
 
 Because the classification uses no macroeconomic data, the indices can be constructed in real time as events unfold.
+
+## Euro area indices
+
+The euro area indices apply the same mechanism classification to the article corpus underlying the euro area GPR index of Bondarenko, Kang, Lewis, Rottner, and Schüler (2026, Bundesbank Discussion Paper 14/2026), with the questionnaire referring to the euro area economy. They are part of ongoing work; construction details and a citation will be added when the paper is available. Until then, please contact the author before using them in published work.
+
 
 ## Updates
 
