@@ -6,7 +6,7 @@ Monthly supply-type and demand-type geopolitical risk indices for the United Sta
 
 Please cite the paper when using the data.
 
-The file also contains preliminary euro area counterparts (see below).
+The file also contains euro area counterparts (see below).
 
 ## Data
 
