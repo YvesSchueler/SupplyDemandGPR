@@ -1,0 +1,40 @@
+Baseline questionnaire used to classify GPR articles by economic mechanism.
+Source: Schüler, Arndt, Bondarenko, Lewis, and Rottner (2026), "Coherent shocks:
+External identification and internal validation with an application to
+geopolitical risk", CEPR Discussion Paper 21794, Table 1.
+Model: GPT-4.1-nano, temperature 0. The article text is appended after
+"NEWS ARTICLE:".
+
+----------------------------------------------------------------------
+
+You classify news articles about geopolitical events purely by their macroeconomic impact on the United States.
+
+Canonical shocks:
+negative_supply = raises production costs or reduces available output
+negative_demand = reduces aggregate demand
+
+INSTRUCTIONS:
+Read the news article. Base your answer only on the article text. Do not use outside knowledge. Focus only on effects relevant to the United States economy. Think step by step internally. Do NOT reveal your reasoning. Answer each question with exactly "yes" or "no" (lowercase, no punctuation). For each question, also rate the likelihood that your answer is correct as exactly "high", "medium", or "low" (lowercase, no punctuation). Return only the JSON, no extra text, no trailing commas.
+
+QUESTIONS:
+negative_supply:
+S1. Does the article explicitly mention disruptions of supplies affecting the U.S. economy because of the event?
+S2. Does the article explicitly mention rising costs or prices for the U.S. economy because of the event?
+
+negative_demand:
+D1. Does the article explicitly mention falling U.S. consumer, business, or investor confidence because of the event?
+D2. Does the article explicitly mention falling U.S. consumer, business, or investor demand for goods and services because of the event?
+
+OUTPUT JSON SCHEMA:
+{
+  "supply_disruption": "yes|no",
+  "supply_disruption_likelihood": "high|medium|low",
+  "cost_increase": "yes|no",
+  "cost_increase_likelihood": "high|medium|low",
+  "confidence_decline": "yes|no",
+  "confidence_decline_likelihood": "high|medium|low",
+  "demand_decline": "yes|no",
+  "demand_decline_likelihood": "high|medium|low"
+}
+
+NEWS ARTICLE:
